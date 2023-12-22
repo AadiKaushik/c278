@@ -1,0 +1,80 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.18749633898226747 0.19875813714526938 0.9619461137645856 1.5512650388512688
+  position -2.1810182722132305 -2.1251178462414333 -0.005544677041247115
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -2.32164 0.500005 -1.17876
+  rotation 1.4374199999955644e-06 -2.0261599999937476e-06 0.9999999999969142 -1.5707953071795862
+  floorSize 2 2
+  wallThickness 0.05
+  wallHeight 0.15
+}
+DEF BOX Transform {
+  translation -2.24 0.76 -1.04
+  children [
+    Shape {
+      appearance Asphalt {
+      }
+      geometry Box {
+        size 0.3 0.3 0.3
+      }
+    }
+  ]
+}
+DEF BOX Transform {
+  translation -1.62 0.06 -1.03
+  children [
+    Shape {
+      appearance Asphalt {
+      }
+      geometry Box {
+        size 0.3 0.3 0.3
+      }
+    }
+  ]
+}
+DEF BOX Transform {
+  translation -2.9 -0.1 -1.02
+  children [
+    Shape {
+      appearance Asphalt {
+      }
+      geometry Box {
+        size 0.3 0.3 0.3
+      }
+    }
+  ]
+}
+DEF BOX Transform {
+  translation -2.9 1.09 -1.02
+  children [
+    Shape {
+      appearance Asphalt {
+      }
+      geometry Box {
+        size 0.3 0.3 0.3
+      }
+    }
+  ]
+}
+E-puck {
+  hidden position_0_0 1113.8553726282282
+  hidden position_0_1 1253.59439937376
+  hidden linearVelocity_0 -0.039344179265937244 -0.03987363019300417 8.853079559800739e-08
+  hidden angularVelocity_0 -0.002046989996346884 0.0020266573043752354 0.0942987794832503
+  hidden translation_1 0 0.026 0.02
+  hidden rotation_1 0 -0.9999999999999999 0 4.551612049738169
+  hidden linearVelocity_1 -0.037611508895713734 -0.03811807716948986 1.0248991562094706e-07
+  hidden angularVelocity_1 1.897667085936151 -1.8723782883357825 0.09599593408156556
+  hidden translation_2 0 -0.026 0.02
+  hidden rotation_2 0 -1 0 3.0426620621571976
+  hidden linearVelocity_2 -0.041056488914920565 -0.041608844909172826 1.2239791371545984e-07
+  hidden angularVelocity_2 2.0885911879458576 -2.0609342639196235 0.09625706207012664
+  translation -2.964274032732251 0.8147254671294734 -1.178821895858441
+  rotation -0.0001191889167652445 1.3805978194667395e-05 0.9999999928016985 -2.347694097608915
+}
